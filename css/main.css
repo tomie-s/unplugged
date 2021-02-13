@@ -17,6 +17,12 @@ html {
   line-height: 1.4;
 }
 
+body {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -94,13 +100,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
-
-main .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+  padding: 15px 0;
 }
 
 header nav {
@@ -112,16 +112,9 @@ header nav {
 
 header nav ul {
   display: flex;
-  justify-content: space-around;
-}
-
-.newsletter,
-.features,
-.reviews {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 20px;
 }
 
 footer .social-icons {
@@ -136,8 +129,55 @@ footer .social-icons p {
   align-items: center;
 }
 
-/* -------------------- Base Header, Main and Footer Styles -------------------- */
+/* -------------------- Header Styles -------------------- */
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin: 20px 0;
+}
 
+.header-divider {
+  border-top: 1px solid #000000;
+  width: 100%;
+}
+
+/* -------------------- Main Styles -------------------- */
+main .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 20px;
+}
+
+.newsletter {
+  padding: 15px 0;
+}
+
+.contact-us div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+}
+
+.feature-item {
+  width: 35%;
+  display: flex;
+  flex-basis: 200px;
+  flex-flow: column nowrap;
+}
+
+.reviews h3 {
+  width: 80%;
+}
+
+/* -------------------- Footer Styles -------------------- */
+footer .content-wrapper {
+  width: 55%;
+  margin: 20px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
