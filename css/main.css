@@ -318,6 +318,10 @@ input[type="button"] {
   text-transform: uppercase;
 }
 
+.features i {
+  font-size: 3.75em;
+}
+
 .review-img {
   width: 100%;
 }
