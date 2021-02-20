@@ -102,6 +102,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
+  color: white;
 }
 
 h2 {
@@ -140,6 +141,7 @@ address {
 
 header,
 footer {
+  background-color: #212423;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,11 +194,16 @@ main .content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  margin: 20px;
 }
 
 .newsletter {
   padding: 15px 0;
+  background-color: #527159;
+}
+
+.features,
+.hero h2 {
+  color: #e2e4ed;
 }
 
 .feature-wrap {
@@ -212,6 +219,42 @@ main .content-wrapper {
 
 .reviews h3 {
   width: 80%;
+}
+
+.faq .content-wrapper,
+.mission .content-wrapper {
+  background-color: #527159;
+}
+
+.connect .content-wrapper,
+.reviews .content-wrapper {
+  background-color: #2a433a;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type="button"] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 0.9em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* -------------------- Footer Styles -------------------- */
@@ -337,13 +380,11 @@ footer .content-wrapper {
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
-    margin: 20px;
   }
 
   .newsletter {
     display: flex;
     justify-content: space-around;
-    margin: 20px;
     padding: 20px;
   }
 
@@ -456,7 +497,6 @@ footer .content-wrapper {
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
-    margin: 20px;
   }
 
   .features h3 {
