@@ -399,6 +399,112 @@ footer .content-wrapper {
   }
 }
 
+@media only screen and (min-width: 1200px) {
+  /*Desktop styles here*/
+  /* -------------------- Header Styles -------------------- */
+  body {
+    width: 70%;
+  }
+
+  /* -------------------- Main Styles -------------------- */
+  main .content-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    margin: 20px;
+  }
+
+  .features h3 {
+    padding: 30px;
+  }
+
+  .feature-wrap {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .feature-item {
+    width: 30%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .reviews .content-wrapper {
+    width: 100%;
+  }
+
+  .review-content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+
+  .testimonial {
+    width: 40%;
+  }
+
+  .faq-content {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .faq-item {
+    width: 45%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .mission-content {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .mission-item {
+    width: 45%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .connect-options {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .connect-item {
+    width: 45%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+
+  /* -------------------- Footer Styles -------------------- */
+  footer .content-wrapper {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .contact-options {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+}
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
