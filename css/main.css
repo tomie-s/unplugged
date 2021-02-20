@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
   margin: auto;
 }
@@ -137,6 +137,10 @@ a {
 address {
   font-style: normal;
 }
+
+img {
+  width: 100%;
+}
 /* -------------------- Base Header, Main and Footer Styles -------------------- */
 
 header,
@@ -152,6 +156,7 @@ footer {
 header .nav-bar {
   display: flex;
   flex-flow: row wrap;
+  width: 100%;
 }
 
 header nav ul {
@@ -189,6 +194,17 @@ header .content-wrapper {
   width: 100%;
 }
 
+.hero {
+  background-image: url("../img/hero-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features {
+  background-image: url("../img/meal.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /* -------------------- Main Styles -------------------- */
 main .content-wrapper {
   display: flex;
@@ -199,6 +215,7 @@ main .content-wrapper {
 .newsletter {
   padding: 15px 0;
   background-color: #527159;
+  width: 100%;
 }
 
 .features,
@@ -255,6 +272,10 @@ input[type="button"] {
   border: none;
   text-align: center;
   text-transform: uppercase;
+}
+
+.review-img {
+  width: 100%;
 }
 
 /* -------------------- Footer Styles -------------------- */
@@ -354,7 +375,7 @@ footer .content-wrapper {
   /*Tablet styles here*/
   /* -------------------- Header Styles -------------------- */
   body {
-    width: 70%;
+    width: 100%;
   }
 
   header .content-wrapper {
@@ -362,7 +383,7 @@ footer .content-wrapper {
     justify-content: space-between;
     flex-flow: row nowrap;
     margin: 30px 0;
-    width: 100%;
+    width: 80%;
   }
 
   .header-divider {
@@ -379,21 +400,26 @@ footer .content-wrapper {
   main .content-wrapper {
     display: flex;
     justify-content: center;
-    flex-flow: column wrap;
+    width: 100%;
+  }
+
+  .hero {
+    width: 100%;
   }
 
   .newsletter {
     display: flex;
     justify-content: space-around;
+    flex-flow: row nowrap;
     padding: 20px;
   }
 
   .newsletter p {
-    width: 60%;
+    width: 40%;
   }
 
   .news-intro {
-    width: 50%;
+    width: 40%;
   }
 
   .signup-form {
@@ -422,6 +448,10 @@ footer .content-wrapper {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+  }
+
+  .review-img {
+    width: 40%;
   }
 
   .testimonial {
@@ -471,7 +501,7 @@ footer .content-wrapper {
   }
   /* -------------------- Footer Styles -------------------- */
   footer .content-wrapper {
-    width: 100%;
+    width: 80%;
     margin: 20px;
   }
   .contact-options {
@@ -489,14 +519,15 @@ footer .content-wrapper {
   /*Desktop styles here*/
   /* -------------------- Header Styles -------------------- */
   body {
-    width: 70%;
+    width: 100%;
   }
 
   /* -------------------- Main Styles -------------------- */
-  main .content-wrapper {
+
+  .features .content-wrapper {
     display: flex;
-    justify-content: center;
-    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 100%;
   }
 
   .features h3 {
@@ -504,10 +535,10 @@ footer .content-wrapper {
   }
 
   .feature-wrap {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: centre;
   }
 
   .feature-item {
