@@ -105,9 +105,9 @@ body {
   color: white;
 }
 
-h2 {
+h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 2.1em;
+  font-size: 3em;
 }
 
 h3,
@@ -213,12 +213,14 @@ header .content-wrapper {
 }
 
 .hero {
-  background-image: url("../img/hero-img.jpg");
+  background-image: url("../img/hero-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
 }
 
-.hero h2 {
+.hero h1 {
   width: 80%;
   display: flex;
   justify-content: flex-start;
@@ -468,6 +470,10 @@ footer .content-wrapper {
   header nav ul {
     display: flex;
     justify-content: flex-end;
+  }
+
+  .hero {
+    min-height: 600px;
   }
 
   /* -------------------- Main Styles -------------------- */
