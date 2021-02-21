@@ -108,11 +108,13 @@ body {
 h1 {
   font-family: "Poppins", sans-serif;
   font-size: 3em;
+  font-weight: normal;
 }
 
 h3,
 h4 {
   font-family: "Poppins", sans-serif;
+  font-weight: normal;
 }
 
 h3 {
@@ -121,6 +123,8 @@ h3 {
 
 h4 {
   font-size: 1.1em;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
 }
 
 p {
@@ -136,6 +140,7 @@ a {
 
 li {
   font-size: 1.2em;
+  font-weight: bold;
 }
 
 address {
@@ -373,6 +378,11 @@ footer .content-wrapper {
   width: 55%;
   margin: 20px;
   text-align: center;
+}
+
+.contact-info,
+.contact-social {
+  margin-bottom: 40px;
 }
 
 .social {
@@ -657,6 +667,8 @@ footer .content-wrapper {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    width: 100%;
+    padding-top: 40px;
   }
 
   .copyright {
