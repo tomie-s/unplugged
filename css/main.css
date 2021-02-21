@@ -120,7 +120,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 p {
@@ -374,6 +374,17 @@ footer .content-wrapper {
   margin: 20px;
   text-align: center;
 }
+
+.social {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+.social i {
+  font-size: 3em;
+  color: #527159;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -610,6 +621,13 @@ footer .content-wrapper {
     justify-content: center;
   }
 
+  .map {
+    position: relative;
+    padding-bottom: 55%;
+    height: 0;
+    overflow: hidden;
+  }
+
   .connect-header {
     width: 80%;
     display: flex;
@@ -632,18 +650,21 @@ footer .content-wrapper {
 
   /* -------------------- Footer Styles -------------------- */
   footer .content-wrapper {
-    width: 80%;
+    width: 100%;
     margin: 20px;
   }
   .contact-options {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    width: 80%;
   }
 
   .copyright {
     text-align: center;
+  }
+
+  .social-icon {
+    padding-left: 20px;
   }
 }
 
