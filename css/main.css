@@ -528,6 +528,10 @@ footer .content-wrapper {
     width: 100%;
   }
 
+  .hero h1 {
+    width: 70%;
+  }
+
   .newsletter {
     display: flex;
     justify-content: space-around;
@@ -691,6 +695,10 @@ footer .content-wrapper {
 
   .features h3 {
     padding: 30px;
+  }
+
+  .hero h1 {
+    width: 55%;
   }
 
   .feature-item {
